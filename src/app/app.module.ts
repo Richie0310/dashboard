@@ -20,12 +20,8 @@ import {MatIconModule} from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatListModule} from '@angular/material/list';
-
-
-
-
-
-
+import {MatCardModule} from '@angular/material/card';
+import { HighchartsChartModule } from 'highcharts-angular';
 
 
 @NgModule({
@@ -51,7 +47,9 @@ import {MatListModule} from '@angular/material/list';
     MatIconModule,
     FlexLayoutModule,
     MatMenuModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    HighchartsChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

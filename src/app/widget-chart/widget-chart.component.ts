@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import * as Highcharts from 'highcharts';
+
 
 @Component({
   selector: 'app-widget-chart',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./widget-chart.component.css']
 })
 export class WidgetChartComponent {
+
+  Highcharts=Highcharts
+  chartOptions={}
 
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-widget-card',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./widget-card.component.css']
 })
 export class WidgetCardComponent {
+
+  @Input() icon: string = ''
+  @Input() desc: string = ''
+
+
 
 }
