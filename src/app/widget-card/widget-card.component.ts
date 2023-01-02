@@ -9,6 +9,8 @@ export class WidgetCardComponent {
 
   @Input() icon: string = ''
   @Input() desc: string = ''
+  @Input() bg: string = ''
+  @Input() total: string = ''
 
 
 

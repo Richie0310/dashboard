@@ -2,11 +2,11 @@
 
 <!-- Header -->
 
-<app-header></app-header>
+<app-header (isSidebarToggle)="isSidebarToggle()"></app-header>
 
 <mat-drawer-container class="example-container">
     
-    <mat-drawer mode="side" opened>
+    <mat-drawer mode="side" [opened]="sideBar">
         <!-- Side Nav -->
         <app-side-nav></app-side-nav>
     </mat-drawer>
